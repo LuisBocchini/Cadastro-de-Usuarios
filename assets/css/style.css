@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: #636FA4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+    width: 95%;
+    /* background-color: aqua; */
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.cadastro {
+    background-color: white;
+    width: 40%;
+    margin: 10px;
+    height: 500px;
+    border-radius: 6px;
+}
+
+.cadastro h1 {
+    color: #636FA4;
+    ;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.lista {
+    background-color: white;
+    width: 60%;
+    margin: 10px;
+    min-height: 400px;
+    border-radius: 6px;
+}
+
+.cadastro_inputs {
+    /* background-color: violet; */
+    width: 80%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #636FA4;
+}
+
+.cadastro_inputs input {
+    height: 30px;
+    text-indent: 10px;
+}
+
+.cadastro_inputs button {
+    height: 35px;
+    background: #636FA4;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cadastro_inputs button:hover {
+    background: rgb(198, 66, 110);
+}
+
+.lista h1 {
+    text-align: center;
+    color: #636FA4;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.usuarios {
+    width: 90%;
+    min-height: 300px;
+    /* border:1px solid rgb(100, 43, 115); */
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.usuario {
+    width: 100%;
+    min-height: 30px;
+    border: 1px solid #636FA4;
+    text-indent: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.usuario button {
+    width: 80px;
+    height: 30px;
+    background: #636FA4;
+    border: none;
+    margin-right: -1px;
+    color: white;
+}
+
+.usuario button:hover {
+    background-color: rgb(198, 66, 110);
+}
+
+.erro {
+    /* background-color: rgb(238, 93, 93); */
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: rgb(198, 66, 110);
+    text-align: center;
+    font-size: 20px;
+}
